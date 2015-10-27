@@ -1,9 +1,46 @@
+
+@font-face {
+    font-family: 'rimouskisemibold';
+    src: url('../fonts/rimouski_sb-webfont.eot');
+    src: url('../fonts/rimouski_sb-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/rimouski_sb-webfont.woff2') format('woff2'),
+         url('../fonts/rimouski_sb-webfont.woff') format('woff'),
+         url('../fonts/rimouski_sb-webfont.ttf') format('truetype'),
+         url('../fonts/rimouski_sb-webfont.svg#rimouskisemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'luzro';
+    src: url('../fonts/LUZRO.eot');
+    src: url('../fonts/LUZRO.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 html,body{
 	height:100%;
+  font-family: 'luzro';
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'rimouskisemibold';
+}
+
+a, a:hover, a:focus, a:active{
+  text-decoration: none;
 }
 
 .no-padding{
 	padding:0;
+}
+
+.img-height-responsive{
+  height:100%;
+  width:auto;
 }
 
 .container-fluid {
@@ -27,21 +64,119 @@ html,body{
     transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
 }
 
-::-webkit-input-placeholder {
+.form-control::-webkit-input-placeholder {
    color: #176169;
 }
 
-:-moz-placeholder { /* Firefox 18- */
+.form-control:-moz-placeholder { /* Firefox 18- */
    color: #176169;  
 }
 
-::-moz-placeholder {  /* Firefox 19+ */
+.form-control::-moz-placeholder {  /* Firefox 19+ */
    color: #176169;  
 }
 
-:-ms-input-placeholder {  
+.form-control:-ms-input-placeholder {  
    color: #176169;  
 }
+
+.round-corners{
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+
+.inicio{
+  position: relative;
+  min-height: 930px;
+  background-color: #B4E1E1;
+}
+
+.inicio .logo{
+  margin-top: 10px;
+}
+
+.inicio .bg-img{
+  position: absolute; 
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  margin-left: 10%;
+  z-index: 0;
+}
+
+.inicio ul{
+  position: relative;
+  z-index: 2;
+  width: 100%; /* or your desired width */
+  text-align: center; 
+  margin-top: 10%;
+}
+
+.inicio ul > li{
+  background-color: rgba(255,255,255,0.9);
+  display: inline-block; /* the key bit */
+  *display: inline; /* IE7 hack */
+  *zoom: 1; /* IE7 hack */
+  width: 150px;
+  height:150px;
+  margin:0 19px 10px;
+  padding-top: 40px;
+  top:0;
+}
+
+.inicio ul >li:first-child{
+  position: relative;
+  padding-top: 55px;
+}
+
+.inicio ul >li:last-child{
+  position: relative;
+  padding-top: 65px;
+}
+
+.inicio ul > li > a{
+  color: #28958D;
+  font-weight: bold;
+} 
+
+.inicio footer{
+  position: absolute;
+  bottom: 0;
+  background-color: #28958D;
+  color:#FFF;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+
+.somos{
+  position: relative;
+  height:100%;
+
+}
+
+.somos .somos-img{
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: auto;
+  z-index: -1;
+}
+
+.somos h2, .somos p{
+  color:#FFF;
+}
+
+.somos h2{
+  font-size: 5em;
+}
+
+.somos p{
+  font-size: 2em;
+}
+
 
 .contact{
 	min-height: 100%;
@@ -50,11 +185,12 @@ html,body{
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+  background-attachment: scroll
 }
 
 .contact .layer{
 	width: 100%;
-	min-height: 100%;
+	height: 100%;
 	background-color: rgba(255,255,255,0.3);
 }
 
@@ -68,3 +204,42 @@ html,body{
 	padding:10px;
 	margin-bottom:20%;
 }
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  
+  .inicio{
+    min-height: 100%;
+  }
+
+  .inicio ul{
+    margin-top: 55%;
+  }
+
+  .inicio ul > li{
+    margin:0 19px;
+  }
+
+  .inicio ul >li:first-child{
+    top: -5px;
+  }
+  
+  .inicio ul >li:last-child{
+    top: -15px;
+  }
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  .inicio ul{
+    margin-top: 20%;
+  }
+
+  .inicio ul > li{
+    margin:0 47px;
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }
