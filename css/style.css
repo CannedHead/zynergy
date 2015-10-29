@@ -477,6 +477,7 @@ a, a:hover, a:focus, a:active{
 	padding:10px;
 	margin-bottom:25%;
   font-size: 20px;
+  border-radius: 6px;
 }
 
 .contact .form-control{
@@ -543,6 +544,15 @@ a, a:hover, a:focus, a:active{
     text-align: left;
   }
 
+  .impactamos .cannedlogo{
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .impactamos .captchalogo{
+    padding-top: 90px;
+  }
+
   .somos h2.somosh{
     font-size: 5em;
     margin-top: 35%;
@@ -556,6 +566,9 @@ a, a:hover, a:focus, a:active{
     text-align: left;
   }
 
+  .caracteristicas .contentspace{
+    margin-top: 6%;
+  }
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -573,6 +586,18 @@ a, a:hover, a:focus, a:active{
     margin:0 24px;
   }
 
+  .impactamos .cannedlogo{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .impactamos .captchalogo{
+    padding-top: 45px;
+  }
+
+  .caracteristicas .contentspace{
+    margin-top: 0;
+  }
 }
 
 /* Large devices (large desktops, 1200px and up) */
@@ -593,6 +618,9 @@ a, a:hover, a:focus, a:active{
     font-size: 3.6em;
   }
 
+  .impactamos .captchalogo{
+    padding-top: 10px;
+  }
 }
 
 @media (min-width: 1600px) { 
@@ -606,4 +634,15 @@ a, a:hover, a:focus, a:active{
     margin: 70px auto 0px;
   }
 
+  .experiencias h2 {
+    margin-top: 300px;
+  }
+
+  .impactamos .captchalogo{
+    padding-top: 20px;
+  }
+
+  .caracteristicas .contentspace{
+    margin-top: 6%;
+  }
 }
