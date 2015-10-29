@@ -181,13 +181,13 @@ a, a:hover, a:focus, a:active{
 }
 
 .impactamos .left{
-  margin-top: 4%;
+  margin-top: 5.5%;
   position: relative;
-  left: -1%;
+  left: -1.5%;
 }
 
 .impactamos h2{
-  font-size: 3.6em;
+  font-size: 3.3em;
   color: #575756;
 }
 
@@ -394,7 +394,9 @@ a, a:hover, a:focus, a:active{
   font-weight: bold;
   background-color: rgba(255, 255, 255, 0.5);
   padding: 10px;
-  margin-top: 2%;
+  border:solid 5px transparent;
+  border-radius: 125%/100px 100px 0 0;
+  padding-top: 55px;
 }
 
 .caract{
@@ -543,6 +545,7 @@ a, a:hover, a:focus, a:active{
   .inicio ul > li{
     margin:0 24px;
   }
+
 }
 
 /* Large devices (large desktops, 1200px and up) */
@@ -552,6 +555,15 @@ a, a:hover, a:focus, a:active{
   }
   .inicio ul{
     margin-top: 25%;
+  }
+
+  .impactamos .left{
+    margin-top: 4%;
+    left: -1%;
+  }
+
+  .impactamos h2{
+    font-size: 3.6em;
   }
 
 }
