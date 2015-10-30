@@ -238,8 +238,7 @@ a, a:hover, a:focus, a:active{
 
 .somos{
   position: relative;
-  height:100%;
-
+  padding-bottom: 50px;
   background: url(../img/7.jpg) no-repeat center center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -251,8 +250,8 @@ a, a:hover, a:focus, a:active{
   position: absolute;
   left: 0;
   top: 0;
-  height: 100%;
-  width: auto;
+  height: auto;
+  width: 100%;
   z-index: 1;
 }
 
@@ -265,15 +264,15 @@ a, a:hover, a:focus, a:active{
 .somos h2.somosh{
   font-family: 'luzro';
   font-size: 2.6em;
-  margin-top: 50px;
+  margin-top: 13px;
 }
 
 .somos h2.recorrido{
   position: relative;
   left: -12%;
   font-family: 'luzro';
-  font-size: 2.6em;
-  margin-top: 26%;
+  font-size: 1.9em;
+  margin-top: 18%;
   padding-left: 20%;
   padding-top: 15px;
   padding-bottom: 10px;
@@ -321,23 +320,28 @@ a, a:hover, a:focus, a:active{
   position: absolute;
   z-index: 1;
   color: #FFF;
-  bottom:13%;
   width: 100%;
   text-align: center;
-  font-size: 1.7em;
   font-weight: bold;
+  bottom: 45%;
+  font-size: 0.9em;
 }
 
 .experiencias .col-sm-6{
   height:100%;
 }
 
-.experiencias h2{
+.experiencias h2 {
   color: #FFF;
-  font-size: 3em;
+  font-size: 2em;
   font-family: "luzro";
   font-weight: bold;
-  margin-top: 225px;
+  margin-top: 30%;
+}
+
+.experiencias .expone,
+.experiencias .exptwo{
+  height:50%;
 }
 
 .experiencias .expone{
@@ -438,7 +442,6 @@ a, a:hover, a:focus, a:active{
   height: 0px;
   border-top: 34px solid transparent;
   border-bottom: 34px solid transparent;
-  left: 0px;
   top: 0;
 }
 
@@ -449,15 +452,14 @@ a, a:hover, a:focus, a:active{
   height: 0px;
   border-top: 34px solid transparent;
   border-bottom: 34px solid transparent;
-  right: -34px;
   top: 0;
 }
 
-.caract > li:nth-child(odd):after {border-left: 34px solid #268E87;}
-.caract > li:nth-child(even):after {border-left: 34px solid #176169;}
+.caract > li:nth-child(odd):after {border-left: 34px solid #268E87; right: -34px;}
+.caract > li:nth-child(even):after {border-right: 34px solid #268E87; right: 0px;}
 
-.caract > li:nth-child(even):before {border-left: 34px solid #268E87;}
-.caract > li:nth-child(odd):before {border-left: 34px solid #176169;}
+.caract > li:nth-child(even):before {border-right: 34px solid #176169; left: -34px;}
+.caract > li:nth-child(odd):before {border-left: 34px solid #176169; left: 0px;}
 
 .contact{
 	height: 100%;
@@ -599,10 +601,15 @@ a, a:hover, a:focus, a:active{
   .impactamos .captchalogo{
     padding-top: 17px;
   }
-
+  
   .somos h2.somosh{
     font-size: 5em;
-    margin-top: 35%;
+    margin-top: 10%;
+  }
+
+  .somos h2.recorrido {
+    margin-top: 26%;
+    font-size: 2.6em;
   }
 
   .somos p{
@@ -611,6 +618,16 @@ a, a:hover, a:focus, a:active{
     padding-right: 75px;
     padding-left: 70px;
     text-align: left;
+  }
+  
+  .experiencias .hero{
+    bottom:45%;
+    font-size: 1.9em;
+  }
+  
+  .experiencias h2{
+    font-size: 3em;
+    margin-top: 220px;
   }
 
   .caracteristicas .contentspace{
@@ -655,6 +672,86 @@ a, a:hover, a:focus, a:active{
     padding-top: 2%;
   }
 
+  .somos{
+    height:100%;
+    padding-bottom: 0px;
+  }
+  
+  .somos .somos-img{
+    height: 100%;
+    width: auto;
+    left: -22%;
+  }
+
+  .somos h2.somosh{
+    margin-top: 35%;
+  }
+  
+  .experiencias .hero{
+    bottom:13%;
+    font-size: 1.7em;
+  }
+
+  .experiencias .expone,
+  .experiencias .exptwo{
+    height:100%;
+  }
+
+  .experiencias h2{
+    font-size: 3em;
+    margin-top: 225px;
+  }
+
+  .caract{
+    margin-top: 15px;
+  }
+
+  .caract > li {
+    position: relative;
+    color: #FFF;
+    font-size: 1.6em;
+    font-weight: bold;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    margin-bottom: 15px;
+    padding-left: 55px;
+    height: 68px;
+  }
+  .caract > li:nth-child(odd) {
+    background-color: #268E87;
+  }
+  .caract > li:nth-child(even) {
+    background-color: #176169;
+  }
+
+  .caract > li:before{
+    position: absolute;
+    content: "";
+    width: 0px;
+    height: 0px;
+    border-top: 34px solid transparent;
+    border-bottom: 34px solid transparent;
+    left: 0px;
+    top: 0;
+  }
+
+  .caract > li:after{
+    position: absolute;
+    content: "";
+    width: 0px;
+    height: 0px;
+    border-top: 34px solid transparent;
+    border-bottom: 34px solid transparent;
+    right: -34px;
+    top: 0;
+  }
+
+  .caract > li:nth-child(odd):after {border-left: 34px solid #268E87;}
+  .caract > li:nth-child(even):after {border-left: 34px solid #176169;}
+
+  .caract > li:nth-child(even):before {border-left: 34px solid #268E87;}
+  .caract > li:nth-child(odd):before {border-left: 34px solid #176169;}
+
   .caracteristicas .contentspace{
     margin-top: 0;
   }
@@ -680,6 +777,10 @@ a, a:hover, a:focus, a:active{
 
   .impactamos .captchalogo{
     padding-top: 10px;
+  }
+
+  .somos .somos-img{
+    left: 0%;
   }
 }
 
