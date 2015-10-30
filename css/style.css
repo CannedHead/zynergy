@@ -159,8 +159,6 @@ a, a:hover, a:focus, a:active{
 
 .impactamos{
   position: relative;
-  height:100%;
-
   background: url(../img/photo_40267_20150822.jpg) no-repeat center center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -168,16 +166,26 @@ a, a:hover, a:focus, a:active{
   background-size: cover;
 }
 
-.impactamos .letter{
-  position: relative;
-  height: 60%;
-  right:0;  
-  padding-top: 4%
+.impactamos .layer{
+  position: absolute;
+  z-index: 0;
+  background-color:rgba(195,159,195,0.5);
+  width: 100%;
+  height:88%;
+  top:0;
+  left: 0;
 }
 
-.impactamos .letter img{
-  position: absolute;
-  right: 0;
+.impactamos .letter{
+  position: relative;
+  right:0;  
+}
+
+.impactamos .letter img {
+    position: absolute;
+    right: -5px;
+    height: 225px;
+    margin-top: 27px;
 }
 
 .impactamos .left{
@@ -187,8 +195,8 @@ a, a:hover, a:focus, a:active{
 }
 
 .impactamos h2{
-  font-size: 3.3em;
-  color: #575756;
+  font-size: 2.1em;
+  color: #FFF;
 }
 
 .impactamos p {
@@ -197,16 +205,15 @@ a, a:hover, a:focus, a:active{
   margin-top: 15px;
   padding-right: 0;
   padding-left: 0;
-  color: #575756;
+  color: #FFF;
 }
 
-.impactamos .redessociales{
-  margin-top: 17%;
+.impactamos .redessociales {
+    margin-bottom: 92px;
 }
 
 .impactamos .impactamosfooter{
-  height: 25%;
-  background-color:rgba(195,159,195,0.5);
+  height: 12%;
   position: absolute;
   bottom: 0;
   padding-top:10px;
@@ -221,10 +228,13 @@ a, a:hover, a:focus, a:active{
 .impactamos .impactamosfooter p{
   text-align: right;
   color: #FFF;
-  font-size: 2.5em;
+  font-size: 0.98em;
   font-weight: bold;
-  padding-top: 4%;
 }
+
+.impactamos .captchalogo{
+    padding-top: 5px;
+  }
 
 .somos{
   position: relative;
@@ -537,20 +547,57 @@ a, a:hover, a:focus, a:active{
   .inicio ul >li:last-child{
     top: -20px;
   }
+
+  .impactamos{
+    height:100%;
+  }
   
+  .impactamos .letter{
+    height: 60%;  
+    padding-top: 4%
+  }
+  
+  .impactamos .letter img{
+    right: 0;
+    height:68%;
+    margin-top: 0
+  }
+
+  .impactamos h2{
+    font-size: 3.3em;
+    color: #575756;
+  }
+
   .impactamos p {
     font-size: 1.5em;
     margin-top: 10%;
     text-align: left;
+    color: #575756;
+  }
+
+  .impactamos .redessociales{
+    margin-top: 17%;
+    margin-bottom: 0;
+  }
+  
+  .impactamos .impactamosfooter{
+    height:12%;
+    background-color:rgba(195,159,195,0.5);
+  }  
+
+  .impactamos .impactamosfooter p{
+    font-size: 1.8em;
+    padding-top: 7%;
   }
 
   .impactamos .cannedlogo{
-    padding-top: 60px;
-    padding-bottom: 60px;
+    height: 100%;
+    display: inline-block;
+    text-align: center;
   }
 
   .impactamos .captchalogo{
-    padding-top: 90px;
+    padding-top: 17px;
   }
 
   .somos h2.somosh{
@@ -585,14 +632,27 @@ a, a:hover, a:focus, a:active{
   .inicio ul > li{
     margin:0 24px;
   }
+  
+  .impactamos .letter img{
+    height:100%;
+  }
+
+  .impactamos .impactamosfooter{
+    height:18%;
+  }
+
+  .impactamos .impactamosfooter p{
+    font-size: 2.5em;
+    margin-top: 0;
+  }
 
   .impactamos .cannedlogo{
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
 
   .impactamos .captchalogo{
-    padding-top: 45px;
+    padding-top: 2%;
   }
 
   .caracteristicas .contentspace{
@@ -640,6 +700,7 @@ a, a:hover, a:focus, a:active{
 
   .impactamos .captchalogo{
     padding-top: 20px;
+    padding-left: 98px;
   }
 
   .caracteristicas .contentspace{
