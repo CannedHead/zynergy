@@ -273,9 +273,9 @@ a, a:hover, a:focus, a:active{
   font-family: 'luzro';
   font-size: 1.9em;
   margin-top: 18%;
-  padding-right: 20%;
+  padding-right:10px;
   padding-top: 15px;
-  padding-bottom: 10px;
+  padding-bottom: 22px;
   z-index: 0;
   margin-bottom: 7%;
   text-align: right;
