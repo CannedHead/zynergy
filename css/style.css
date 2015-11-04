@@ -273,7 +273,7 @@ a, a:hover, a:focus, a:active{
   font-family: 'luzro';
   font-size: 1.9em;
   margin-top: 18%;
-  padding-left: 20%;
+  padding-left: 25%;
   padding-top: 15px;
   padding-bottom: 10px;
   z-index: 0;
@@ -747,9 +747,9 @@ a, a:hover, a:focus, a:active{
   }
 
   .caract > li:nth-child(odd):after {border-left: 34px solid #268E87;}
-  .caract > li:nth-child(even):after {border-left: 34px solid #176169;}
+  .caract > li:nth-child(even):after {border-left: 34px solid #176169; right: -68px;border-right: 34px solid transparent;}
 
-  .caract > li:nth-child(even):before {border-left: 34px solid #268E87;}
+  .caract > li:nth-child(even):before {border-left: 34px solid #268E87; border-right:0 solid transparent; left:0;}
   .caract > li:nth-child(odd):before {border-left: 34px solid #176169;}
 
   .caracteristicas .contentspace{
