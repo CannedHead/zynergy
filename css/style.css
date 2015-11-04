@@ -273,12 +273,12 @@ a, a:hover, a:focus, a:active{
   font-family: 'luzro';
   font-size: 1.9em;
   margin-top: 18%;
-  padding-left: 25%;
+  padding-right: 20%;
   padding-top: 15px;
   padding-bottom: 10px;
   z-index: 0;
   margin-bottom: 7%;
-
+  text-align: right;
   background: #41bdb5; /* Old browsers */
   background: -moz-linear-gradient(left, #41bdb5 0%, #15727a 50%, #15727a 51%, #002a36 100%); /* FF3.6+ */
   background: -webkit-gradient(linear, left top, right top, color-stop(0%,#41bdb5), color-stop(50%,#15727a), color-stop(51%,#15727a), color-stop(100%,#002a36)); /* Chrome,Safari4+ */
@@ -463,12 +463,14 @@ a, a:hover, a:focus, a:active{
 
 .contact{
 	height: 100%;
+  /*
 	background: url(../img/IMG_0127.JPG) no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
   background-attachment: scroll
+  */
 }
 
 .contact .layer,
@@ -506,6 +508,7 @@ a, a:hover, a:focus, a:active{
   padding-bottom: 2px;
   font-size: 1.8em;
   color: #176169;
+  background-color: #FFF;
 }
 
 .sendtobottom{
