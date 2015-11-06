@@ -390,13 +390,17 @@ a, a:hover, a:focus, a:active{
 }
 
 .caracteristicas{
-  height: 100%;
   background: url(../img/file4421243236063.jpg) no-repeat center center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   position: relative;
+  
+}
+
+.caracteristicas .layer{
+  padding-bottom: 20px;
 }
 
 .caracteristicaslogo{
@@ -420,9 +424,9 @@ a, a:hover, a:focus, a:active{
 .caract > li {
   position: relative;
   color: #FFF;
-  font-size: 1.6em;
+  font-size: 1.2em;
   font-weight: bold;
-  padding-top: 18px;
+  padding-top: 25px;
   padding-bottom: 18px;
   margin-bottom: 15px;
   padding-left: 55px;
@@ -461,18 +465,6 @@ a, a:hover, a:focus, a:active{
 .caract > li:nth-child(even):before {border-right: 34px solid #176169; left: -34px;}
 .caract > li:nth-child(odd):before {border-left: 34px solid #176169; left: 0px;}
 
-.contact{
-	height: 100%;
-  /*
-	background: url(../img/IMG_0127.JPG) no-repeat center center fixed; 
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-  background-attachment: scroll
-  */
-}
-
 .contact .layer,
 .caracteristicas .layer{
   position: relative;
@@ -509,15 +501,6 @@ a, a:hover, a:focus, a:active{
   font-size: 1.8em;
   color: #176169;
   background-color: #FFF;
-}
-
-.sendtobottom{
-  height:100%;
-}
-
-.tobottom{
-  position: absolute;
-  bottom:15%;
 }
 
 /* Small devices (tablets, 768px and up) */
@@ -704,6 +687,14 @@ a, a:hover, a:focus, a:active{
     font-size: 3em;
     margin-top: 225px;
   }
+  
+  .caracteristicas {
+    height: 100%;
+  }
+
+  .caracteristicas .layer{
+    padding-bottom: 0px;
+  }
 
   .caract{
     margin-top: 15px;
@@ -757,6 +748,19 @@ a, a:hover, a:focus, a:active{
 
   .caracteristicas .contentspace{
     margin-top: 0;
+  }
+  
+  .contact{
+    height: 100%;
+  }
+
+  .sendtobottom{
+    height:100%;
+  }
+
+  .tobottom{
+    position: absolute;
+    bottom:15%;
   }
 }
 
