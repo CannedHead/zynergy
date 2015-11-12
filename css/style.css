@@ -336,7 +336,7 @@ a, a:hover, a:focus, a:active{
   font-size: 2em;
   font-family: "luzro";
   font-weight: bold;
-  margin-top: 30%;
+  margin-top: 25%;
 }
 
 .experiencias .expone,
@@ -387,6 +387,45 @@ a, a:hover, a:focus, a:active{
   background-color: #2477B9;
   border-color: #2477B9;
   color: #FFF;
+}
+
+.ejecucion{
+  height: 110%;
+  position: relative;
+  background: url(../img/bgejecucionsmt.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.ejecucion .left{
+  background-color: rgba(158,31,99,0.7);
+  color: #FFF;
+}
+
+
+.ejecucion .left::before {
+  position: absolute;
+  content: "";
+  width: 0px;
+  height: 0px;
+  border-right: 160px solid transparent;
+  bottom: -100px;
+  border-top: 100px solid rgba(158,31,99,0.7);
+  border-left: 160px solid transparent;
+}
+
+.ejecucion h2{
+  font-family: "luzro";
+  font-size: 2.1em;
+  margin-top: 13px;
+}
+
+.ejecucion p{
+  font-weight: bold;
+  margin:10px 10%;
+  font-size: 0.9em;
 }
 
 .caracteristicas{
@@ -473,6 +512,10 @@ a, a:hover, a:focus, a:active{
 	background-color: rgba(255,255,255,0.3);
 }
 
+.contact .layer{
+  height: 770px;
+}
+
 .contact .layer h2{
 	color:#176169;
 }
@@ -501,6 +544,32 @@ a, a:hover, a:focus, a:active{
   font-size: 1.8em;
   color: #176169;
   background-color: #FFF;
+}
+
+@media (min-width:360px){
+  .ejecucion{
+    height: 100%;
+  }
+
+  .ejecucion .left::before {
+    position: absolute;
+    content: "";
+    width: 0px;
+    height: 0px;
+    border-right: 180px solid transparent;
+    bottom: -100px;
+    border-top: 100px solid rgba(158,31,99,0.7);
+    border-left: 180px solid transparent;
+  }
+  
+  .ejecucion h2 {
+      font-size: 2.4em;
+      margin-top: 20px;
+  }
+
+  .experiencias h2 {
+    margin-top: 30%;
+  }
 }
 
 /* Small devices (tablets, 768px and up) */
@@ -615,6 +684,23 @@ a, a:hover, a:focus, a:active{
     font-size: 3em;
     margin-top: 220px;
   }
+  
+  .ejecucion h2 {
+    font-size: 5em;
+    margin-top: 10%;
+  }
+  
+  .ejecucion p {
+    margin: 45px 10%;
+    font-size: 1.5em;
+  }
+
+  .ejecucion .left::before {
+      border-right: 384px solid transparent;
+      bottom: -100px;
+      border-top: 100px solid rgba(158,31,99,0.7);
+      border-left: 384px solid transparent;
+  }
 
   .caracteristicas .contentspace{
     margin-top: 6%;
@@ -688,6 +774,32 @@ a, a:hover, a:focus, a:active{
     margin-top: 225px;
   }
   
+  .ejecucion{
+    height: 100%;
+    background: url(../img/bgejecucion.jpg) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .ejecucion .left{
+    height: 100%;
+  }
+
+  .ejecucion .left::before {
+    display: none;
+  }
+
+  .ejecucion h2{
+    font-size: 3.5em;
+  }
+
+  .ejecucion p{
+    font-size: 1.2em;
+    margin: 15% 10%;
+  }
+
   .caracteristicas {
     height: 100%;
   }
@@ -754,6 +866,10 @@ a, a:hover, a:focus, a:active{
     height: 100%;
   }
 
+  .contact .layer{
+    height: 100%;
+  }
+
   .sendtobottom{
     height:100%;
   }
@@ -766,7 +882,7 @@ a, a:hover, a:focus, a:active{
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
-   .inicio .bg-img{
+  .inicio .bg-img{
     margin-left: 10%;
   }
   .inicio ul{
@@ -789,6 +905,14 @@ a, a:hover, a:focus, a:active{
   .somos .somos-img{
     left: 0%;
   }
+  
+  .ejecucion h2{
+    font-size: 4em;
+  }
+
+  .ejecucion p {
+      margin: 10%;
+  }
 }
 
 @media (min-width: 1600px) { 
@@ -809,6 +933,10 @@ a, a:hover, a:focus, a:active{
   .impactamos .captchalogo{
     padding-top: 20px;
     padding-left: 98px;
+  }
+  
+  .ejecucion h2{
+    font-size: 6em;
   }
 
   .caracteristicas .contentspace{
