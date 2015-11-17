@@ -54,3 +54,4 @@ ExpiresDefault "access 1 month"
 RewriteEngine On 
 
 RewriteRule ^btlvivencial$ btlvivencial.html [NC,L]
+RewriteRule ^organizacion-logistica$ logistica.html [NC,L]

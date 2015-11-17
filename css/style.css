@@ -638,6 +638,34 @@ a, a:hover, a:focus, a:active{
   z-index: 4;
 }
 
+.logistica{
+  height: 100%;
+  background: url(../img/conference-picture.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.logistica h1{
+  font-family: "luzro";
+  color: #FFF;
+  font-size: 4em;
+  padding-top: 10%;
+}
+
+.logistica h2{
+  font-family: "luzro";
+  width: 100%;
+  margin-top: 10%;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #FFF;
+  text-align: center;
+  font-size: 1.5em;
+  padding: 15px 18%;
+  font-weight: bold;
+}
+
 @media (min-width:360px){
   .ejecucion{
     height: 100%;
