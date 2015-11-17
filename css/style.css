@@ -38,6 +38,10 @@ a, a:hover, a:focus, a:active{
 	padding:0;
 }
 
+.img-responsive{
+  width:100%;
+}
+
 .img-height-responsive{
   height:100%;
   width:auto;
@@ -546,6 +550,94 @@ a, a:hover, a:focus, a:active{
   background-color: #FFF;
 }
 
+.btlvivencial{
+  height: 100%;
+}
+
+.btlvivencial .bgbtlvivencial{
+  background: url(../img/_MG_3298.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.btlvivencial h1{
+  font-family: "luzro";
+  color: #006069;
+  margin-top: 0;
+  padding-top: 20px;
+}
+
+.btlvivencialtitulo{
+  width: 238px;
+  position: relative;
+  top: -6px;
+}
+
+.btlvivencial .heroone,
+.btlvivencial .herotwo{
+  font-size: 1.3em;
+} 
+
+.btlvivencial .heroone{
+  color:#006069;
+  padding-right: 5px;
+  padding-left: 5px;
+  text-align: justify;
+  margin-bottom: 0;
+  padding-bottom: 10px;
+}
+
+.btlvivencial .herotwo{
+  color:#FFF;
+  font-weight: bold;
+}
+
+.btlimages{
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}
+
+.btlvivencial .imgone{
+  position: absolute;
+  width: 75%;
+  top:0;
+  left:0;
+  z-index: 1;
+}
+
+.btlvivencial .imgtwo{
+  position: absolute;
+  width: 50%;
+  top:0;
+  right:0;
+  z-index: 2;
+}
+
+.btlvivencial .imgthree{
+  position: absolute;
+  width:60%;
+  bottom: 0;
+  left: 0;
+  z-index: 3;
+}
+
+.btlvivencial .imghero{
+  font-family: "luzro";
+  position: absolute;
+  width: 100%;
+  top: 39%;
+  left: 0px;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #FFF;
+  text-align: center;
+  font-size: 1.3em;
+  padding: 15px 18%;
+  z-index: 4;
+}
+
 @media (min-width:360px){
   .ejecucion{
     height: 100%;
@@ -704,6 +796,10 @@ a, a:hover, a:focus, a:active{
 
   .caracteristicas .contentspace{
     margin-top: 6%;
+  }
+
+  .btlvivencial .bgbtlvivencial{
+    background: none;
   }
 }
 

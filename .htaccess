@@ -50,3 +50,7 @@ ExpiresDefault "access 1 month"
                                   "text/xml"
 
 </IfModule>
+
+RewriteEngine On 
+
+RewriteRule ^btlvivencial$ btlvivencial.html [NC,L]
