@@ -555,12 +555,12 @@ a, a:hover, a:focus, a:active{
 }
 
 .btlvivencial .bgbtlvivencial{
-  background: url(../img/_MG_3298.jpg) no-repeat center center; 
+  background: url(../img/fondo-payaso.jpg) no-repeat center center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 100%;
+  min-height: 100%;
 }
 
 .btlvivencial h1{
