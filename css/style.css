@@ -772,6 +772,8 @@ ul.listalogisticathree > li:nth-child(4){
   font-size: 1.8em;
 }
 
+
+
 @media (min-width:360px){
   .ejecucion{
     height: 100%;
@@ -1213,6 +1215,13 @@ ul.listalogisticathree > li:nth-child(4){
   .logistica h2{
     margin-top: 13%;
   }
+}
+
+/*1280 x 1024*/
+@media screen and (min-width: 1280px) and (min-height: 1024px){
+    .somos .somos-img {
+        left: -27%;
+    }
 }
 
 @media (min-width: 1600px) { 
