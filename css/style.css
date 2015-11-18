@@ -508,6 +508,19 @@ a, a:hover, a:focus, a:active{
 .caract > li:nth-child(even):before {border-right: 34px solid #176169; left: -34px;}
 .caract > li:nth-child(odd):before {border-left: 34px solid #176169; left: 0px;}
 
+
+.galeria h2 {
+    font-family: "luzro";
+    font-size: 2.1em;
+    margin-top: 13px;
+    color:#016069;
+}
+
+.galeria .gallery-photo{
+  background:url(../img/fondo2.svg) repeat;
+  height:260px;
+}
+
 .contact .layer,
 .caracteristicas .layer{
   position: relative;
@@ -783,6 +796,11 @@ ul.listalogisticathree > li:nth-child(4){
   .experiencias h2 {
     margin-top: 30%;
   }
+
+  .galeria h2 {
+      font-size: 2.4em;
+      margin-top: 20px;
+  }
 }
 
 /* Small devices (tablets, 768px and up) */
@@ -917,6 +935,11 @@ ul.listalogisticathree > li:nth-child(4){
 
   .caracteristicas .contentspace{
     margin-top: 6%;
+  }
+
+  .galeria h2 {
+    font-size: 5em;
+    margin-top: 10%;
   }
 }
 
@@ -1075,6 +1098,10 @@ ul.listalogisticathree > li:nth-child(4){
     margin-top: 0;
   }
   
+  .galeria h2{
+    font-size: 3.5em;
+  }
+
   .contact{
     height: 100%;
   }
@@ -1168,6 +1195,10 @@ ul.listalogisticathree > li:nth-child(4){
       margin: 10%;
   }
 
+  .galeria h2{
+    font-size: 4em;
+  }
+
   .btlvivencial .bgbtlvivencial{
     background: transparent url("../img/bgvivencial.svg") no-repeat scroll 0px 0px / 100% auto;
   }
@@ -1210,6 +1241,10 @@ ul.listalogisticathree > li:nth-child(4){
 
   .caracteristicas .contentspace{
     margin-top: 6%;
+  }
+
+  .galeria h2{
+    font-size: 6em;
   }
 
   .btlvivencial .heroone {
