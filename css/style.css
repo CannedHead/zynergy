@@ -639,6 +639,14 @@ a, a:hover, a:focus, a:active{
   z-index: 4;
 }
 
+.btlvivencialinfo{
+  padding:10px 5%;
+  background-color: #05A89E;
+  color:#FFF;
+  text-align: center;
+  font-size: 1.3em;
+}
+
 .logistica{
   height: 100%;
   background: url(../img/conference-picture.jpg) no-repeat center center; 
@@ -1086,5 +1094,13 @@ a, a:hover, a:focus, a:active{
 
   .caracteristicas .contentspace{
     margin-top: 6%;
+  }
+
+  .btlvivencial .heroone {
+      padding-bottom: 120px;
+  }
+
+  .btlvivencial .imghero {
+    top: 36.3%;
   }
 }
