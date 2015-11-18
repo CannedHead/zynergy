@@ -648,29 +648,31 @@ a, a:hover, a:focus, a:active{
 }
 
 .logistica{
-  height: 100%;
-  background: url(../img/conference-picture.jpg) no-repeat center center; 
+  background: url(../img/bg-logistica-smartphone.jpg) no-repeat center center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
+.mobile-logistica{
+  background-color: rgba(255,255,255,0.5);
+}
+
 .logistica h1{
   font-family: "luzro";
-  color: #FFF;
-  font-size: 4em;
   padding-top: 10%;
+  font-size: 2em;
+  color:#006069;
 }
 
 .logistica h2{
   font-family: "luzro";
   width: 100%;
-  margin-top: 13%;
   background-color: rgba(255, 255, 255, 0.2);
-  color: #FFF;
+  color: #6D6E70;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1.2em;
   padding: 15px 18%;
   font-weight: bold;
 }
@@ -680,6 +682,13 @@ a, a:hover, a:focus, a:active{
   background-color: #FFF;
   color:#006069;
   margin-bottom: 20px;
+  font-size: 1em;
+  padding:5px 10px;
+}
+
+ul.listalogisticaone,
+ul.listalogisticatwo{
+  font-size:1em;
 }
 
 ul.listalogisticaone{
@@ -690,7 +699,6 @@ ul.listalogisticaone > li {
   height:110px;
   color:#FFF;
   text-align: center;
-  font-size: 1.5em;
   padding-top: 45px;
 }
 
@@ -719,7 +727,6 @@ ul.listalogisticatwo > li {
   height:110px;
   color:#808284;
   text-align: center;
-  font-size: 1.5em;
   padding-top: 30px;
   background-color: #F0F1F1;
   margin-bottom: 10px;
@@ -1097,6 +1104,34 @@ ul.listalogisticathree > li:nth-child(4){
   .btlvivencial .heroone, .btlvivencial .herotwo {
       font-size: 1em;
   }
+
+  .logistica{
+    height: 100%;
+    background: url(../img/conference-picture.jpg) no-repeat center center; 
+  }
+  .mobile-logistica {
+    background-color: transparent;
+  }
+  
+  .logistica h1{
+    color: #FFF;
+    font-size: 4em;
+  }
+  
+  .logistica h2{
+    color:#FFF;
+    font-size: 1.5em;
+    margin-top: 17%;
+  }
+
+  .logisticahero {
+    font-size:24px;
+  }
+
+  ul.listalogisticaone,
+  ul.listalogisticatwo{
+    font-size:1.5em;
+  }
 }
 
 /* Large devices (large desktops, 1200px and up) */
@@ -1142,6 +1177,10 @@ ul.listalogisticathree > li:nth-child(4){
   
   .btlvivencial .heroone, .btlvivencial .herotwo {
       font-size: 1.2em;
+  }
+  
+  .logistica h2{
+    margin-top: 13%;
   }
 }
 
