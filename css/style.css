@@ -631,7 +631,7 @@ a, a:hover, a:focus, a:active{
   width: 100%;
   top: 32.3%;
   left: 0px;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.3);
   color: #FFF;
   text-align: center;
   font-size: 1.3em;
@@ -1001,12 +1001,16 @@ a, a:hover, a:focus, a:active{
   }
 
   .btlvivencial .bgbtlvivencial{
-    background: url(../img/bgvivencial.svg) no-repeat;
-    background-size: 100%; 
+    background: transparent url("../img/bgvivencial.svg") no-repeat scroll 0px 45px / 100% auto;
   }
 
   .btlvivencial .heroone{
     color:#006069;
+    padding-bottom: 44px;
+  }
+  
+  .btlvivencial .heroone, .btlvivencial .herotwo {
+      font-size: 1em;
   }
 }
 
@@ -1042,6 +1046,17 @@ a, a:hover, a:focus, a:active{
 
   .ejecucion p {
       margin: 10%;
+  }
+
+  .btlvivencial .bgbtlvivencial{
+    background: transparent url("../img/bgvivencial.svg") no-repeat scroll 0px 0px / 100% auto;
+  }
+  .btlvivencial .heroone{
+    padding-bottom: 25px;
+  }
+  
+  .btlvivencial .heroone, .btlvivencial .herotwo {
+      font-size: 1.2em;
   }
 }
 
