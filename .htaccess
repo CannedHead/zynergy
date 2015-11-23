@@ -56,3 +56,6 @@ RewriteEngine On
 RewriteRule ^btlvivencial$ btlvivencial.html [NC,L]
 RewriteRule ^organizacion-logistica$ logistica.html [NC,L]
 RewriteRule ^impactodigital$ impacto.html [NC,L]
+RewriteRule ^conocenos$ meet.html [NC,L]
+RewriteRule ^academy$ academy.html [NC,L]
+RewriteRule ^contacto$ contacto.html [NC,L]

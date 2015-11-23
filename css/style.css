@@ -509,6 +509,36 @@ a, a:hover, a:focus, a:active{
 .caract > li:nth-child(odd):before {border-left: 34px solid #176169; left: 0px;}
 
 
+.academy{
+  background: url(../img/andreeeplaymobil002.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+  
+}
+
+.academy .layer{
+  padding-bottom: 20px;
+}
+
+.academylogo{
+  margin-top: 10px;
+}
+
+.academy .texto{
+  color: #4C4E53;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 10px;
+  border:solid 5px transparent;
+  border-radius: 125%/100px 100px 0 0;
+  padding-top: 55px;
+}
+
+
+
 .galeria h2 {
     font-family: "luzro";
     font-size: 2.1em;
@@ -939,6 +969,19 @@ ul.listalogisticathree > li:nth-child(4){
     margin-top: 6%;
   }
 
+  .academy {
+    height: 100%;
+  }
+
+  .academy .layer{
+    padding-bottom: 0px;
+  }
+
+  .academy .wplogo{
+    margin-top:50px;
+    margin-bottom:20px;
+  }
+
   .galeria h2 {
     font-size: 5em;
     margin-top: 10%;
@@ -1100,6 +1143,8 @@ ul.listalogisticathree > li:nth-child(4){
     margin-top: 0;
   }
   
+
+
   .galeria h2{
     font-size: 3.5em;
   }

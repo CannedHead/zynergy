@@ -1,0 +1,83 @@
+<!doctype html>
+<html class="no-js" lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Zynergy</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div class="container-fluid">
+          <section class="contact col-xs-12 no-padding">                
+            <div class="layer">
+                <div class="row hidden-md hidden-lg">
+                    <div class="col-xs-8 col-xs-offset-2 col-sm-8 col-sm-offset-1">
+                        <div class="col-xs-12 col-sm-6">
+                            <h2>Somos afortunados por saber de ti...</h2>
+                            <p class="round-corners">Pbx:3099262<br>
+                               contacto@zynergy.co<br>
+                               Cra. 63 # 98b-25<br>
+                               Bogotá, Colombia
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-sm-offset-1 sendtobottom">
+                    <form class="col-xs-12 tobottom" method="post" action="email.php">
+                      <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Nombre y Apellido" name="name">
+                      </div>
+                      <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Dirección e-mail" name="email">
+                      </div>
+                      <div class="form-group">
+                          <textarea class="form-control" placeholder="Mensaje" rows="6" name="message"></textarea>
+                      </div>
+                      <div class="col-xs-12">
+                        <button type="submit" class="btn btn-enviar">ENVIAR</button>
+                      </div>
+                    </form>
+                </div>
+                <div class="col-sm-2 col-sm-offset-4 hidden-xs hidden-sm sendtobottom">
+                    <div class="tobottom">
+                      <h2>Somos afortunados por saber de ti...</h2>
+                      <p class="text-center">Pbx:3099262<br>
+                         contacto@zynergy.co<br>
+                         Cra. 63 # 98b-25<br>
+                         Bogotá, Colombia
+                      </p>
+                    </div>
+                </div>
+            </div>  
+          </section>
+        </div>
+        
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/smooth-scroll.min.js"></script>
+        <script src="js/jquery.backstretch.min.js"></script>
+        <script>
+          $(document).ready(function() {   
+            smoothScroll.init();         
+            $(".contact").backstretch([
+              "img/contacto/014.jpg",
+              "img/IMG_0127.JPG",
+              "img/contacto/IMG_1924.jpg",
+              "img/contacto/IMG_5471_.jpg",
+              "img/contacto/texting.jpg"
+            ], {duration: 4000, fade: 750});
+          });
+        </script>
+    </body>
+</html>
