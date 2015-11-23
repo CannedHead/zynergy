@@ -20,6 +20,18 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'darkwomanregular';
+    src: url('../fonts/darkwoman-webfont.eot');
+    src: url('../fonts/darkwoman-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/darkwoman-webfont.woff2') format('woff2'),
+         url('../fonts/darkwoman-webfont.woff') format('woff'),
+         url('../fonts/darkwoman-webfont.ttf') format('truetype'),
+         url('../fonts/darkwoman-webfont.svg#darkwomanregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 html,body{
 	height:100%;
@@ -547,7 +559,7 @@ a, a:hover, a:focus, a:active{
 }
 
 .galeria .gallery-photo{
-  background:url(../img/fondo2.svg) repeat;
+  background:url(../img/bggaleria.svg) repeat;
   height:260px;
 }
 
@@ -802,7 +814,60 @@ ul.listalogisticathree > li:nth-child(4){
   font-size: 1.8em;
 }
 
+.sustainable{
+  position: relative;
+  height: 100%;
+  background: url(../img/bgsustentable.svg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
+.sustainable h1{
+  margin-top: 21%;
+  color:#FFF;
+  font-size: 9em;
+  line-height: 80px;
+  font-family: 'luzro';
+}
+
+.sustainable h1 span{
+  color:#FFF;
+  font-size: 0.6em;
+}
+
+.sustainable .btndown{
+  background-color: #FFF;
+  border: none;
+  color:#FED53C;
+  padding: 5px 14px;
+  font-size: 40px;
+  margin-top: 2%;
+}
+
+.sustainable .btndown span{
+  position: relative;
+  top:9px;
+}
+
+.sustainabletwo .hero{
+  font-family: 'darkwomanregular';
+  color:#1A9774;
+  font-size: 6em;
+}
+
+.sustainabletwo p{
+  font-family: "rimouskisemibold";
+  color: #221F20;
+  font-size: 1.4em;
+}
+
+.sustainabletwo p.herotwo{
+  color: #1A9774;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 
 @media (min-width:360px){
   .ejecucion{
@@ -1206,6 +1271,12 @@ ul.listalogisticathree > li:nth-child(4){
   ul.listalogisticatwo{
     font-size:1.5em;
   }
+
+  .sustainabletwo .col-sm-6{
+    padding-left:70px;
+    padding-right: 70px;
+  }
+  
 }
 
 /* Large devices (large desktops, 1200px and up) */
