@@ -16,12 +16,13 @@
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+        <a id="menu-btn" href="/" class="toggle-menu toggle-btn"><span></span></a>
         <div class="container-fluid">        
           <section class="sustainable col-xs-12 no-padding">
             <h1 class="text-center">SUSTAINABLE<br><span>SOLUTIONS</span></h1>
-            <button class="center-block btndown img-circle"><span class="glyphicon glyphicon-menu-down"></span></button>
+            <button class="center-block btndown img-circle" data-scroll href="#bazinga"><span class="glyphicon glyphicon-menu-down"></span></button>
           </section>   
-          <section class="sustainabletwo">
+          <section class="sustainabletwo" id="bazinga">
             <div class="col-sm-6">
             <p style="margin-top:40px;">Nuestras experiencias pretenden impactar las marcas desde las áreas de comunicación, mercadeo y comercial. Sin embargo, sabemos que más allá de esto, es fundamental impactar las áreas de sostenibilidad y responsabilidad social de cada uno de nuestros clientes, demostrando así que cada marca puede generar un impacto positivo y responsable sobre su entorno.<br><br>Nuestra responsabilidad como agencia es diseñar y ejecutar eventos   de   alto   impacto   y   comunicar   nuestra   conciencia ambiental y social a cada uno de nuestros clientes mediante cada experiencia relevante.<br><br>Te invitamos a conocer algunos de nuestros proyectos:</p>
             <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -80,5 +81,11 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
         <script src="js/bootstrap.min.js"></script>
+        <script src="js/smooth-scroll.min.js"></script>
+        <script>
+          $(document).ready(function() {   
+            smoothScroll.init();         
+          });
+        </script>
     </body>
 </html>

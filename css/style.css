@@ -102,6 +102,60 @@ a, a:hover, a:focus, a:active{
   border-radius: 6px;
 }
 
+.toggle-btn{
+  position: absolute; 
+  right: 40px;
+  top: 17px;
+  cursor: pointer; 
+  padding: 10px 35px 16px 0px;
+  z-index: 1031;
+}
+
+.toggle-btn span, .toggle-btn span:before, .toggle-btn span:after {
+  cursor: pointer;
+  border-radius: 1px;
+  height: 3px;
+  width: 33px;
+  background: #108885;
+  position: absolute;
+  display: block;
+  content: '';
+}
+
+.toggle-btn span:before {
+  top: -10px; 
+}
+.toggle-btn span:after {
+  bottom: -10px;
+}
+
+.toggle-btn span, .toggle-btn span:before, .toggle-btn span:after {
+  -webkit-transition: -webkit-transform .4s cubic-bezier(.16, .68, .43, .99);
+  -moz-transition: -moz-transform .4s cubic-bezier(.16, .68, .43, .99);
+  -o-transition: -o-transform .4s cubic-bezier(.16, .68, .43, .99);
+  transition: transform .4s cubic-bezier(.16, .68, .43, .99);
+  /* improves performance issues on mobile*/
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
+}
+.toggle-btn.active span {
+  background-color: transparent;
+  
+}
+.toggle-btn.active span:before, .toggle-btn.active span:after {
+  top: 0;
+  height:2px;
+  width: 25px;
+}
+.toggle-btn.active span:before {
+  transform: rotate(45deg);
+}
+.toggle-btn.active span:after {
+  transform: rotate(-45deg);
+}
+
+
+
 .inicio{
   position: relative;
   min-height: 1010px;
