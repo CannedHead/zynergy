@@ -20,7 +20,7 @@
         <div class="container-fluid">        
           <section class="sustainable col-xs-12 no-padding">
             <h1 class="text-center">SUSTAINABLE<br><span>SOLUTIONS</span></h1>
-            <button class="center-block btndown img-circle" data-scroll href="#bazinga"><span class="glyphicon glyphicon-menu-down"></span></button>
+            <button id="scrolldown" class="center-block btndown img-circle"><span class="glyphicon glyphicon-menu-down"></span></button>
           </section>   
           <section class="sustainabletwo" id="bazinga">
             <div class="col-sm-6">
@@ -83,9 +83,19 @@
         <script src="js/bootstrap.min.js"></script>
         <script src="js/smooth-scroll.min.js"></script>
         <script>
-          $(document).ready(function() {   
-            smoothScroll.init();         
-          });
+          //$(document).ready(function() {   
+            //smoothScroll.init();         
+          //});
+        </script>
+        <script>
+            $(document).ready(function (){
+                $("#scrolldown").click(function (){
+                    console.log("click");
+                    $('html, body').animate({
+                        scrollTop: $("#bazinga").offset().top
+                    }, 2000);
+                });
+            });
         </script>
     </body>
 </html>
