@@ -107,8 +107,9 @@ a, a:hover, a:focus, a:active{
   right: 40px;
   top: 17px;
   cursor: pointer; 
-  padding: 10px 35px 16px 0px;
+  padding: 20px 40px 25px 7px;
   z-index: 1031;
+  background-color: #108885;
 }
 
 .toggle-btn span, .toggle-btn span:before, .toggle-btn span:after {
@@ -116,7 +117,7 @@ a, a:hover, a:focus, a:active{
   border-radius: 1px;
   height: 3px;
   width: 33px;
-  background: #108885;
+  background: #FFF;
   position: absolute;
   display: block;
   content: '';
