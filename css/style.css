@@ -618,13 +618,12 @@ a, a:hover, a:focus, a:active{
 
 .galeria .gallery-photo{
   background:url(../img/bggaleria.svg) repeat;
-  height:260px;
+  height:115px;
 }
 
-.galeria .gallery-titles h2{
+.galeria .gallery-titles h2, .galeria .gallery-titles h3{
   font-family: "rimouskisemibold";
-  font-size: 2em;
-
+  font-size: 1.2em;
 }
 
 .contact .layer,
@@ -1116,6 +1115,18 @@ ul.listalogisticathree > li:nth-child(4){
     font-size: 5em;
     margin-top: 10%;
   }
+
+  .galeria .gallery-titles h2{
+    font-size: 2em;
+  }
+
+  .galeria .gallery-titles h3{
+    font-size: 2em;
+  }
+
+  .galeria .gallery-photo{
+    height:168px;
+  }
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -1273,10 +1284,12 @@ ul.listalogisticathree > li:nth-child(4){
     margin-top: 0;
   }
   
-
-
   .galeria h2{
     font-size: 3.5em;
+  }
+
+  .galeria .gallery-photo{
+    height:260px;
   }
 
   .contact{
