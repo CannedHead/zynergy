@@ -16,6 +16,14 @@
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+        <div id="loader-wrapper">
+            <div id="intro-container">
+                <div id="sprite-intro"></div>
+            </div>
+            <div class="loader-section section-top"></div>
+            <div class="loader-section section-bottom"></div>
+        </div>
+        
         <div class="container-fluid">
           <section class="inicio col-xs-12 no-padding">
               <div class="col-xs-12 header"></div>
@@ -40,5 +48,12 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
         <script src="js/bootstrap.min.js"></script>
+        <script type="text/javascript">
+          $(window).load(function() {
+                $('body').toggleClass('loaded');  
+                $('#loader-wrapper').addClass("sprite-animate");
+                
+          });
+        </script>
     </body>
 </html>
