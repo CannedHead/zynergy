@@ -11,17 +11,20 @@
         
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/animate.css">
+
+        
+
+
     </head>
     <body>
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         <div id="loader-wrapper">
-            <div id="intro-container">
-                <div id="sprite-intro"></div>
-            </div>
-            <div class="loader-section section-top"></div>
-            <div class="loader-section section-bottom"></div>
+          <div id="intro-container">
+              <div id="sprite-intro"></div>
+          </div>
         </div>
         
         <div class="container-fluid">
@@ -45,14 +48,14 @@
         </div>
         
 
+        <script src="viewportchecker.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
         <script src="js/bootstrap.min.js"></script>
         <script type="text/javascript">
           $(window).load(function() {
                 $('body').toggleClass('loaded');  
-                $('#loader-wrapper').addClass("sprite-animate");
-                
+                $('#loader-wrapper').addClass("sprite-animate");                
           });
         </script>
     </body>

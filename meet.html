@@ -11,6 +11,7 @@
         
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/animate.css">
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -212,8 +213,25 @@
           </section>
         </div>
 
+        
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="js/viewportchecker.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
         <script src="js/bootstrap.min.js"></script>
+        <script type="text/javascript">
+            jQuery(document).ready(function() {
+
+
+
+                jQuery('.experiencias').addClass("hidden2").viewportChecker({
+                    classToAdd: 'visible2 animated fadeIn',
+                    offset: 100
+                   });
+
+
+
+            });
+
+        </script>
     </body>
 </html>
