@@ -188,17 +188,17 @@ a, a:hover, a:focus, a:active{
     z-index: 1001;
     top: 50%;
     left: 50%;
-    margin-top: -187.5px;
-    margin-left: -187.5px;
-    width: 375px;
-    height: 375px;
+    margin-top: -150px;
+    margin-left: -150px;
+    width: 117px;
+    height: 117px;
 }
 
 #loader-wrapper.sprite-animate #sprite-intro {
-  -webkit-animation: 3s steps(80, end) 0s normal none 1 sprite-intro-large; /* Safari 4+ */
-  -moz-animation:   3s steps(80, end) 0s normal none 1 sprite-intro-large; /* Fx 5+ */
-  -o-animation: 3s steps(80, end) 0s normal none 1 sprite-intro-large;
-  animation: 3s steps(80, end) 0s normal none 1 sprite-intro-large;
+  -webkit-animation: 4s steps(69, end) 0s normal none 1 sprite-intro-large; /* Safari 4+ */
+  -moz-animation:   4s steps(69, end) 0s normal none 1 sprite-intro-large; /* Fx 5+ */
+  -o-animation: 4s steps(69, end) 0s normal none 1 sprite-intro-large;
+  animation: 4s steps(69, end) 0s normal none 1 sprite-intro-large;
 }
 
 #loader-wrapper #sprite-intro {
@@ -207,45 +207,65 @@ a, a:hover, a:focus, a:active{
     position: absolute;
     top: 0px;
     left: 0px;
-    width: 375px;
-    height: 375px;
-    background-image: url("../img/animated-logo.png");
-    background-position: 0 center;
+    width: 429px;
+    height: 429px;
+    background-image: url("../img/animated-logo-z.png");
+    background-position: 0px center;
 }
 
 @-webkit-keyframes sprite-intro-large {
   0% {
-    background-position: 0.9% 0%;
+    background-position: 0% 0%;
+  }
+  75% {
+    background-position: 100.1% 0;
+    opacity:1;
   }
   100% {
-    background-position: 102.55% 0;
+    background-position: 100.1% 0;
+    opacity:0;
   }
 }
-/*101.65*/
+
 @-moz-keyframes sprite-intro-large {
   0% {
-    background-position: 0.9% 0%;
+    background-position: 0% 0%;
+  }
+  75% {
+    background-position: 100.1% 0;
+    opacity:1;
   }
   100% {
-    background-position: 102.55% 0;
+    background-position: 100.1% 0;
+    opacity:0;
   }
 }
 
 @-o-keyframes sprite-intro-large {
   0% {
-    background-position: 0.9% 0%;
+    background-position: 0% 0%;
+  }
+  75% {
+    background-position: 100.1% 0;
+    opacity:1;
   }
   100% {
-    background-position: 102.55% 0;
+    background-position: 100.1% 0;
+    opacity:0;
   }
 }
 
 @keyframes sprite-intro-large {
   0% {
-    background-position: 0.9% 0%;
+    background-position: 0% 0%;
+  }
+  75% {
+    background-position: 100.1% 0;
+    opacity:1;
   }
   100% {
-    background-position: 102.55% 0;
+    background-position: 100.1% 0;
+    opacity:0;
   }
 }
 /*INICIO*/
@@ -447,7 +467,7 @@ a, a:hover, a:focus, a:active{
   font-size: 1.9em;
   margin-top: 18%;
   padding-right:10px;
-  padding-top: 15px;
+  padding-top: 26px;
   padding-bottom: 22px;
   z-index: 0;
   margin-bottom: 7%;
@@ -728,6 +748,13 @@ a, a:hover, a:focus, a:active{
   font-size: 1.2em;
 }
 
+.galeria .gallery-photo .imgvertical{
+  height: 105px;
+  width: auto;
+  position: relative;
+  top: 5px;
+}
+
 .contact .layer,
 .caracteristicas .layer{
   position: relative;
@@ -771,7 +798,7 @@ a, a:hover, a:focus, a:active{
 }
 
 .btlvivencial{
-  height: 100%;
+  min-height: 100%;
 }
 
 .btlvivencial .bgbtlvivencial{
@@ -1229,6 +1256,16 @@ ul.listalogisticathree > li:nth-child(4){
   .galeria .gallery-photo{
     height:168px;
   }
+
+  .galeria .gallery-photo .imgvertical{
+    height: 158px;
+    position: relative;
+    top: 5px;
+  }
+
+  .btlvivencial{
+    height: 100%;
+  }
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -1392,6 +1429,12 @@ ul.listalogisticathree > li:nth-child(4){
 
   .galeria .gallery-photo{
     height:260px;
+  }
+
+  .galeria .gallery-photo .imgvertical{
+    height: 250px;
+    position: relative;
+    top: 5px;
   }
 
   .contact{
