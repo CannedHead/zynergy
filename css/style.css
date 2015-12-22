@@ -851,6 +851,13 @@ a, a:hover, a:focus, a:active{
   overflow: hidden;
 }
 
+.btlimages img{
+  position: relative;
+  height:100%;
+  width:auto;
+  left:-20%;
+}
+
 .btlvivencial .imgone{
   position: absolute;
   width: 75%;
@@ -1587,6 +1594,12 @@ ul.listalogisticathree > li:nth-child(4){
   
   .logistica h2{
     margin-top: 13%;
+  }
+
+  .btlimages img{
+    height:auto;
+    width:100%;
+    left:0%;
   }
 }
 
