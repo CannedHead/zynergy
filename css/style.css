@@ -1050,8 +1050,10 @@ ul.listalogisticathree > li:nth-child(4){
 .sustainabletwo .hero{
   font-family: 'darkwomanregular';
   color:#1A9774;
-  font-size: 6em;
+  font-size: 3.3em;
+  margin-left: 15px;
 }
+
 
 .sustainabletwo p{
   font-family: "rimouskisemibold";
@@ -1274,6 +1276,10 @@ ul.listalogisticathree > li:nth-child(4){
     margin-top: 46%;
     font-size: 8em;
     line-height: 80px;
+  }
+
+  .sustainabletwo .hero{
+    font-size: 6em;
   }
  
 }
