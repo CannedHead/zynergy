@@ -1289,6 +1289,10 @@ ul.listalogisticathree > li:nth-child(4){
     font-size: 6em;
   }
   
+  .contact{
+    height: 100%;
+  }
+  
   .contact .layer{
     height: 100%;
   }
