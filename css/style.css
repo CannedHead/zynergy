@@ -45,12 +45,11 @@ h1,h2,h3,h4,h5,h6{
 a, a:hover, a:focus, a:active{
   text-decoration: none;
 }
-.hidden2{
-  display: none;
+.hiddentwo{
+     opacity:0;
 }
-
-.visible2{
- display: block;
+.visibletwo{
+     opacity:1;
 }
 .no-padding{
 	padding:0;
