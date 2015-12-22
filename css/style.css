@@ -110,8 +110,8 @@ a, a:hover, a:focus, a:active{
 
 .toggle-btn{
   position: absolute; 
-  right: 40px;
-  top: 17px;
+  right: 0px;
+  top: 0px;
   cursor: pointer; 
   padding: 20px 40px 25px 7px;
   z-index: 1031;
@@ -493,6 +493,9 @@ a, a:hover, a:focus, a:active{
   -moz-transform-origin: 0 0;
   -ms-transform-origin: 0 0;
   transform-origin: 0 0;
+
+
+
 }
 
 .somos p {
@@ -1018,10 +1021,10 @@ ul.listalogisticathree > li:nth-child(4){
 }
 
 .sustainable h1{
-  margin-top: 21%;
+  margin-top: 60%;
   color:#FFF;
-  font-size: 9em;
-  line-height: 80px;
+  font-size: 3.3em;
+  line-height: 40px;
   font-family: 'luzro';
 }
 
@@ -1036,7 +1039,7 @@ ul.listalogisticathree > li:nth-child(4){
   color:#FED53C;
   padding: 5px 14px;
   font-size: 40px;
-  margin-top: 2%;
+  margin-top: 32%;
 }
 
 .sustainable .btndown span{
@@ -1266,6 +1269,13 @@ ul.listalogisticathree > li:nth-child(4){
   .btlvivencial{
     height: 100%;
   }
+  
+  .sustainable h1{
+    margin-top: 46%;
+    font-size: 8em;
+    line-height: 80px;
+  }
+ 
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -1498,6 +1508,21 @@ ul.listalogisticathree > li:nth-child(4){
   .sustainabletwo .col-sm-6{
     padding-left:70px;
     padding-right: 70px;
+  }
+
+  .sustainable h1{
+    margin-top: 21%;
+    font-size: 9em;
+    line-height: 80px;
+  }
+
+  .sustainable .btndown{
+    margin-top: 2%;
+  }
+
+  .toggle-btn{ 
+    right: 40px;
+    top: 17px;
   }
   
 }
